@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/ngChatbot",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
