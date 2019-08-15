@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { PageListComponent } from './pages/page-list/page-list.component';
 
+import { PageService } from './pages/shared/page.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,9 @@ import { PageListComponent } from './pages/page-list/page-list.component';
     BrowserModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [
+    PageService
+  ],
   bootstrap: [AppComponent]
 })
 
